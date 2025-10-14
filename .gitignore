@@ -1,0 +1,16 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.o
+*.so
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Data Files (Crucial: Exclude MASSIVE files)
+/student_resource/dataset/train.csv
+/student_resource/dataset/test.csv
+/student_resource/images/
+# If you created a virtual environment folder inside the project
+/amazon-ml-cuda/
+/amazon-ml-2025/
